@@ -1008,13 +1008,18 @@ div h2{
         padding:10px 10px;
         
     }
+
+
+    .navbar .fa-close{
+        color:#fff;
+    }
      
     
     
       .nav-links{
             background:#004c7e;
             height:100vh;
-            width:300px;
+            width:200px;
             top:0;
             right:-200px;
             position:fixed;
@@ -1028,16 +1033,15 @@ div h2{
 
 
 
-
-
-
     
       nav li{
         padding-top:10px;
         display:block;
         margin-top:20px;
+        
     }
     
+ 
     
     
     

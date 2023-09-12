@@ -10,7 +10,7 @@ function showMenu(){
 }
 
 function closeMenu(){
-   show.style.right = "-300px";
+   show.style.right = "-200px";
 
 }
 
