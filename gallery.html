@@ -35,16 +35,21 @@
 
 
  <header>
-    <nav>
+    <div class="navbar">
         <a href="#"><img src="images/main-logo.png" title="STTI LOGO"></a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="courses.html">courses</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">courses</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+
  </header>
  
 <div class="gallery-img  animate__animated animate__zoomIn">
@@ -211,6 +216,6 @@
  </footer>
  
  <!-- --- END OF FOOTER SECTION ------- -->
-
+ <script src="script.js"></script>
 </body>
 </html> 
