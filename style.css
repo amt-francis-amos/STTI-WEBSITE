@@ -1014,7 +1014,7 @@ div h2{
       .nav-links{
             background:#004c7e;
             height:100vh;
-            width:200px;
+            width:300px;
             top:0;
             right:-200px;
             position:fixed;
@@ -1025,6 +1025,12 @@ div h2{
             overflow:hidden;
       }
     
+
+
+
+
+
+
     
       nav li{
         padding-top:10px;
@@ -1050,6 +1056,24 @@ div h2{
         position:absolute;
         top:5px;
         left:10px;
+    }
+
+    .banner-content{
+        width:100%;
+        margin-top:10%;
+        text-align:center;
+
+    }
+
+
+    .banner-content h1{
+        font-size:18px;
+    }
+
+    .banner-content p{
+        width:250px;
+        font-size:14px;
+        margin:20px auto;
     }
 
 
