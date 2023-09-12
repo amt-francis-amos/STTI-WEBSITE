@@ -981,12 +981,13 @@ div h2{
 
     .navbar{
         width:100%;
-        position:relative;
     }
     
     
     nav ul{
         display:block;
+       
+
     }
     
      .navbar  .fa-bars{
@@ -995,6 +996,7 @@ div h2{
             top:12px;
             color:#fff;
             font-size:30px;
+        
         }
     
      
@@ -1034,26 +1036,20 @@ div h2{
 
 
     
-      nav li{
+      nav ul li{
         padding-top:10px;
         display:block;
         margin-top:20px;
-        
+       
+       
     }
     
+
+  nav ul li a{
+    color:#fff;
+  }
+
  
-    
-    
-    
-    nav li a:hover{
-        color:#fff;
-       text-decoration:underline;
-       padding:5px 0px;
-       font-weight:bold;
-    }
-    
-    
-    
     
     .navbar a img{
         width:140px;
@@ -1079,6 +1075,9 @@ div h2{
         font-size:14px;
         margin:20px auto;
     }
+
+
+    
 
 
 }
