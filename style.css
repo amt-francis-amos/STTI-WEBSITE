@@ -985,7 +985,8 @@ div h2{
 @media(max-width:990px){
 
     .navbar{
-        width:100%;
+       width:100%;
+
     }
     
     
@@ -1104,6 +1105,10 @@ div h2{
         text-align:center;
     }
 
+
+    .principal-name{
+       text-align:center;
+    }
 
 
     .vision-title{
