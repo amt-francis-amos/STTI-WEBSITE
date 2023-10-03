@@ -986,6 +986,9 @@ div h2{
 
 @media(max-width:990px){
 
+
+
+    
   
     .navbar{
        width:100%;
@@ -1001,8 +1004,8 @@ div h2{
 
      .navbar  .fa-bars{
             position:absolute;
-            right:30px;
-            top:12px;
+            right:5%;
+            top:15%;
             color:#fff;
             font-size:30px;
         
@@ -1096,6 +1099,8 @@ div h2{
         margin:20px auto;
     }
 
+
+
     .school-history h1{
         font-size:20px;
     }
@@ -1143,7 +1148,7 @@ div h2{
 
 
 .about-img h1{
-    width:100%;
+    width:70%;
     font-size:18px;
     text-shadow:0px 0px 10px #000;
 }
