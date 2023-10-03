@@ -989,6 +989,7 @@ div h2{
   
     .navbar{
        width:100%;
+       position:relative;
     }
     
     
@@ -1145,12 +1146,15 @@ div h2{
 
     .gallery-img{
         width:100%;
-        height:22vh;
+        height:20vh;
+        position:absolute;
+        top:0%;
         object-fit:cover;
     }
 
     .gallery h1{
            font-size:18px;
+           margin-top:25%;
     }
 
     .school-history{
@@ -1163,8 +1167,15 @@ div h2{
     .course-img{
         width:100%;
         height:21vh;
+        position:absolute;
+        top:0%;
         object-fit:cover;
     }
+
+     .courses h1{
+          margin-top:25%;
+     }
+
 
 
     .course-container{
