@@ -995,10 +995,10 @@ div h2{
     
     nav ul{
         display:block;
-       
-
     }
     
+
+
      .navbar  .fa-bars{
             position:absolute;
             right:30px;
@@ -1008,7 +1008,6 @@ div h2{
         
         }
     
-     
      
      
      .navbar .fa{
@@ -1025,7 +1024,7 @@ div h2{
         color:#fff;
         font-size:25px;
     }
-     
+    
     
     
       .nav-links{
@@ -1042,8 +1041,6 @@ div h2{
             overflow:hidden;
       }
     
-
-
 
     
       nav ul li{
@@ -1125,13 +1122,17 @@ div h2{
     }
 
 
+
     .vision-title{
         width:100%;
     }
 
+
+
     .vision-title h1{
         font-size:20px;
     }
+
 
 
     .about-img{
@@ -1165,10 +1166,11 @@ div h2{
            margin-top:25%;
     }
 
-    .school-history{
-        width:100%;
-       
-    }
+
+
+
+
+
 
 
 
