@@ -1120,15 +1120,18 @@ div h2{
        text-align:center;
     }
 
-
-    
+  
 
 
     .principal-info h2{
+        width:80%;
         font-size:12px;
         text-align:center;
     }
 
+    .principal-info p{
+        width:80%;
+    }
 
 
     .vision-title{
