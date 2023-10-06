@@ -1140,6 +1140,27 @@ div h2{
     }
 
 
+
+    .department-info{
+       width:100%;
+       box-shadow:0px 0px 0px;
+       display:flex;
+       flex-direction:column;
+       margin:auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .vision-title{
         width:100%;
     }
@@ -1181,6 +1202,10 @@ div h2{
     .gallery h1{
            font-size:18px;
            margin-top:25%;
+    }
+
+    .contact-img{
+        width:100%;
     }
 
 
