@@ -1337,6 +1337,12 @@ div h2 {
     color: #007bff;
   }
 
+  nav ul li.active a {
+    color: #d0a141;
+    font-weight: bold;
+  }
+  
+
   .navbar a img {
     width: 140px;
     position: absolute;
