@@ -63,7 +63,38 @@ function scrollToTop() {
  
 
 
+
+//  ---- API ----
+
+
+function submitForm() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  var data = {
+    username: username,
+    password: password
+  };
+
+  fetch('http://localhost:3000/auth/login', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+
+    if (data.success) {
  
-
-
-
+      window.location.href = 'student-page.html';
+    } else {
+      console.error('Login failed:', data.message);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+}
