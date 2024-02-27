@@ -167,6 +167,7 @@ body{
   margin:auto;
   display:block;
   max-width:80px;
+ 
 
 }
 
@@ -414,7 +415,7 @@ nav ul li.active a {
 }
 
 .principal-name {
-  width: 440px;
+  width:80%;
   color: #006994;
   font-weight: bold;
   background: #fff;
@@ -444,23 +445,13 @@ nav ul li.active a {
 .heads-depart {
   padding: 100px 0;
   background:#f5f5f5;
+  
 }
 
 .heads-depart h1{
   text-align:center;
   font-size:30px;
   margin:4% auto;
-}
-
-.img-name{
-  text-align:center;
-  color:#004c7e;
-  font-style:italic;
-  
-}
-
-.img-name h3{
-  margin-top:10px;
 }
 
 
@@ -477,53 +468,56 @@ nav ul li.active a {
 .department-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap:2rem;
+  gap:4rem;
+  padding:0 8%;
 }
 
-.depart-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  place-items:center;
-}
-
-.depart-details {
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.department-info {
+.depart-details{
   width:80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2% 8%;
-  margin:auto;
-  border-radius: 15px;
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   display: flex;
+   gap:3rem;
+   padding:2rem;
+   margin:auto;
+   border-radius:15px;
+   background:#fff;
+   box-shadow:0px 0px 4px rgb(0,0,0,0.5);
 }
 
-.department-info img {
-  width: 100%;
-  height: 80vh;
-  object-fit: center;
-  border-radius: 10px;
+
+.depart-info img {
+  border-radius:20px;
+  width:250px;
+  object-fit:cover;
+  transition: .5s;
 }
 
-.department-info div p {
-  width: 100%;
-  margin: auto;
+
+.depart-info img:hover{
+  transform: scale(1.1);
+}
+
+.depart-info h3{
+  color:#0b0ba3;
+  margin-top:20px;
+  font-size:1.3rem;
+  font-style: italic;
+}
+
+.depart-info h2{
+  color: #004c7e;
+  font-weight:700;
+  font-size:1.4rem;
+  margin-bottom:0.8rem;
+}
+
+.depart-info p{
+  line-height:1.6;
+  font-size:0.9rem;
   text-align: justify;
-  font-size: 13px;
-  margin-top: 10px;
-  line-height: 28px;
 }
 
-div h2 {
-  font-size: 18px;
-}
+
+
 
 .admin-members {
   padding: 100px 0;
@@ -614,6 +608,57 @@ div h2 {
 
 /* -------END OF ABOUT PAGE STYLING----- */
 
+
+
+
+.counsel{
+  padding:100px 0;
+}
+
+.counsel h1{
+  text-align:center;
+}
+
+.counsel h1:after{
+  content:'';
+  width:100px;
+  height:4px;
+  background:#004c7e;
+  display:block;
+  border-radius:8px;
+  margin:5px auto;
+}
+
+
+.counsel-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
+  padding:0 8%;
+  margin-top:5rem;
+}
+
+.counsel-info{
+  width:400px;
+  height:500px;
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.4);
+  border-radius:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------ OUR VISION AND MISSION STYLING ------- */
 
 .vision {
@@ -696,17 +741,6 @@ div h2 {
   font-size: 16px;
   color: #292929;
 }
-
-.caption{
-  position:absolute;
-  
-}
-
-
-
-
-
-
 
 
 
@@ -1549,6 +1583,17 @@ form .btn:hover{
   font-size:18px;
   margin:20px 0;
 }
+
+
+.principal-container{
+   grid-template-columns:repeat(1, 1fr);
+}
+
+
+
+
+
+
   .principal-name {
     width: 100%;
     text-align: center;
@@ -1596,8 +1641,8 @@ form .btn:hover{
 
  
 
-  .department-info {
-    width: 85%;
+  .depart-details {
+    width: 100%;
     flex-direction: column;
   }
 
@@ -1606,24 +1651,22 @@ form .btn:hover{
     font-size:18px;
     text-align:center;
   }
-  .department-info img {
+
+
+  .depart-info img {
     width: 100%;
-    height: 40vh;
     margin: 20px auto;
+  } 
+
+  .depart-info img:hover{
+     transform: scale(1.0);
   }
 
 
-
-  .department-info div p {
-    width: 100%;
-    margin-bottom: 30%;
+  .depart-info h3{
+     text-align:center;
   }
-
-  div h2 {
-    font-size: 18px;
-  }
-  
-
+ 
 
 
 
@@ -1716,6 +1759,7 @@ form .btn:hover{
   .course-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(55%, 1fr));
+    padding:0 8%;
   }
 
   .news-img {
@@ -1754,6 +1798,7 @@ form .btn:hover{
 
   .footer-info {
     text-align: center;
+    
   }
 
   .copyright {
