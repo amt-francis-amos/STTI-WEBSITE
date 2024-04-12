@@ -356,6 +356,31 @@ nav ul li.active a {
   color: #3b3b3b;
 }
 
+.past-members h2{
+    text-align:center;
+    margin:2em 0;
+}
+
+.past-members  p{
+  font-size:1rem;
+  line-height: 1.7;
+ 
+}
+
+
+table{
+   
+   
+}
+
+
+
+
+
+
+
+
+
 .obj-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -563,7 +588,7 @@ nav ul li.active a {
 }
 
 
-/*  */
+
 
 
 
