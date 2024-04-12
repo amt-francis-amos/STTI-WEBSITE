@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -93,13 +96,12 @@ body{
 
 /* ----------- HOMEPAGE STYLING--------------- */
 
-.header {
+.hero-img{
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(96, 151, 253, 0.6)),
-    url("images/img-1.jpg");
+    url('../images/ict-img.jpg');
   animation: slider 25s ease-in-out infinite;
-  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +113,7 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/school-bg.jpg");
+      url("../images/school-bg.jpg");
   }
 
   20% {
@@ -119,7 +121,7 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/pic-2.jpg");
+      url("../images/pic-2.jpg");
   }
 
   25% {
@@ -127,7 +129,7 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/img-10.jpg");
+      url("../images/img-10.jpg");
   }
 
   50% {
@@ -135,7 +137,7 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/it-img.jpg");
+      url("../images/it-img.jpg");
   }
 
   75% {
@@ -143,7 +145,7 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/pic-4.jpg");
+      url("../images/pic-4.jpg");
   }
 
   100% {
@@ -151,47 +153,59 @@ body{
         rgba(0, 0, 0, 0.2),
         rgba(96, 151, 253, 0.6)
       ),
-      url("images/pic-1.jpg");
+      url("../images/pic-1.jpg");
   }
 }
 
-.navbar a img {
-  width: 240px;
+.stti-logo  img {
+  width:180px;
+}
+
+
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+
+
+header{
+  width: 100%;
+  height: 88px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 
 
-
-.school-logo img{
+.header-row {
   width:100%;
-  margin:auto;
-  display:block;
-  max-width:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
  
+ 
+}
 
+
+
+.navbar{
+  display: flex;
+  align-items:center;
+  gap:1em;
 }
 
 .navbar .fa {
   display: none;
 }
 
-.navbar {
-  width: 100%;
-  height: 78px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 8%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-  z-index: 1;
- 
-}
+
 
 nav ul {
   list-style: none;
+  margin-top:0.7em;
 }
 
 nav ul li {
@@ -199,13 +213,6 @@ nav ul li {
   margin: 10px 20px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #222;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
 
 nav ul li a::after {
   content: "";
@@ -229,37 +236,51 @@ nav ul li.active a {
 
 .banner-content {
   width: 65%;
-  padding: 16% 8%;
   text-shadow: 0px 0px 4px #000;
+  position:absolute;
+  top:35px;
+  margin-top:10em;
 }
 
 .banner-content h1 {
-  font-size: 70px;
+  font-size:4rem;
   color: #fff;
+  margin-bottom:0.2em;
   font-weight: bold;
 }
 
 .banner-content p {
-  width: 500px;
-  line-height: 22px;
+  max-width:600px;
+  font-size:1.1rem;
   color: #fff;
-}
-
-.banner-content a {
-  padding: 12px 20px;
-  background: #0b0ba3;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 20px;
-  font-weight: bold;
-  border-radius: 50px;
-  transition:.3s;
 }
 
 
 .banner-content a:hover{
   background:#d0a141;
+}
+
+
+.btn{
+  background:#0b0ba3;
+  color:#fff;
+  width: 150px;
+  height: 45px;
+  display: inline-flex;
+  font-weight:700;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+
+.btn:hover {
+  background:#d0a141;
+}
+
+.btn-1{
+  margin-top:1.5em;
+  
 }
 
 /* ------ END OF HOMEPAGE STYLING -------- */
@@ -1442,10 +1463,19 @@ form .btn:hover{
 
 /* --------RESPONSIVENESS ---------------- */
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
 
 
-  .header {
+  header {
+    padding: 0 30px;
+  }
+
+  .site-btn{
+      display:none;
+  }
+
+
+  .hero {
     width: 100%;
     height: 50vh;
     object-fit: center;
@@ -1468,18 +1498,18 @@ form .btn:hover{
     display: block;
   }
 
-  .navbar .fa-bars {
+  .header-row .fa-bars {
     position: absolute;
     right: 5%;
-    top: 20%;
     color: #fff;
-    font-size:25px;
+   
+
   }
 
   .navbar .fa {
     display: block;
     color: #000;
-    font-size: 25px;
+    font-size: 2rem;
     cursor: pointer;
     padding: 10px 10px;
   }
