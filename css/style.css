@@ -161,6 +161,12 @@ body{
   width:180px;
 }
 
+.school-logo img{
+    width:100px;
+    margin:auto;
+    display: block;
+}
+
 
 .container{
   max-width:1200px;
