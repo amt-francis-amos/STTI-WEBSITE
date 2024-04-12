@@ -1481,7 +1481,7 @@ form .btn:hover{
   }
 
 
-  .hero {
+  .hero-img {
     width: 100%;
     height: 50vh;
     object-fit: center;
@@ -1580,22 +1580,23 @@ form .btn:hover{
     width: 100%;
     text-align: center;
     position: absolute;
-    top:13%;
+    top:-30px;
   }
 
   .banner-content h1 {
-    font-size: 18px;
+    font-size:1rem;
   }
 
   .banner-content p {
     max-width: 180px;
-    font-size: 12px;
+    font-size:0.8rem;
     margin: auto;
   }
 
-  .banner-content a {
-    padding: 8px 15px;
-    font-size: 14px;
+
+  .btn{
+      width:130px;
+      font-size:0.8rem;
   }
 
   .school-history h1 {
