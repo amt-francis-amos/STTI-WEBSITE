@@ -1650,6 +1650,16 @@ form textarea{
   }
 
 
+   .past-members p{
+      text-align:justify;
+      padding:0 1em;
+   }
+
+   table{
+      width:95%;
+      margin:1em auto;
+   }
+
   th, td {
     padding: 6px;
     font-size: 12px;
