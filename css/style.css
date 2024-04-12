@@ -264,6 +264,12 @@ nav ul li.active a {
 
 /* ------ END OF HOMEPAGE STYLING -------- */
 
+
+
+
+
+
+
 /* -------ABOUT PAGE STYLING----- */
 .about {
   padding: 100px 0;
@@ -439,8 +445,6 @@ nav ul li.active a {
 
 
 
-
-
 /* ----Department styling ---- */
 .heads-depart {
   padding: 100px 0;
@@ -515,6 +519,9 @@ nav ul li.active a {
   font-size:0.9rem;
   text-align: justify;
 }
+
+
+/*  */
 
 
 
