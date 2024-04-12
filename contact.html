@@ -91,7 +91,7 @@
 <main>
 
 
-   <div class="contact-img bg-cover animate__animated animate__fadeInUp">
+   <div class="contact-img animate__animated animate__zoomInDown">
       <h1>CONTACT US</h1>
      </div>
      
@@ -100,10 +100,10 @@
      <section class="contact">
      
        <div class="container">
-         <h1 class="heading"> Get in touch </h1>
+       
      
          <div class="icons-container">
-      
+          
             <div class="icons">
                <i class="fas fa-clock"></i>
                <h3>opening hours :</h3>
@@ -139,11 +139,17 @@
       
             <form action="mailto:sekonditakoraditech@gmail.com">
                <h3>Send us a message</h3>
-               <input type="text" placeholder="Please Enter Your Name" class="box">
-               <input type="email" placeholder="Please Enter Your Email" class="box">
-               <input type="text" placeholder="Please Enter Your Phone Number" class="box">
-               <textarea name="" class="box" placeholder="Your Message Here" id="" cols="30" rows="10"></textarea>
-               <input type="submit" value="send message" class="contact-btn">
+              <div>
+               <input type="text" placeholder="Please Enter Your Name">
+              </div>
+              <div>
+               <input type="email" placeholder="Please Enter Your Email" required>
+              </div>
+             <div>
+               <input type="text" placeholder="Please Enter Your Phone Number" required>
+             </div>
+               <textarea name="" class="box" placeholder="Your Message Here"  rows="4"></textarea>
+               <button type="submit" placeholder="send message" class="btn btn-3">Send Message</button>
             </form>
       
          </div>

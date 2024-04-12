@@ -97,10 +97,14 @@ body{
 /* ----------- HOMEPAGE STYLING--------------- */
 
 .hero-img{
+  width: 100%;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(96, 151, 253, 0.6)),
     url('../images/ict-img.jpg');
   animation: slider 25s ease-in-out infinite;
- 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @keyframes slider {
@@ -237,6 +241,7 @@ nav ul li.active a {
 }
 
 .banner-content {
+  width: 65%;
   text-shadow: 0px 0px 4px #000;
   margin-top:10em;
 }
@@ -249,6 +254,7 @@ nav ul li.active a {
 }
 
 .banner-content p {
+  max-width:700px;
   font-size:1.1rem;
   color: #fff;
 }
@@ -298,6 +304,10 @@ nav ul li.active a {
 .about-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(96, 151, 253, 0.6)),
     url("../images/about-img.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position:center;
+  background-size: cover;
   color: #fff;
   position: relative;
  
@@ -1095,50 +1105,28 @@ nav ul li.active a {
 
 /* ------- CONTACT STYLING ---------------- */
 .contact-img {
-  padding: 100px 0;
   height: 70vh;
   width: 100%;
-  object-fit: contain;
-  margin-top: 70px;
+  object-fit:cover;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(15, 93, 196, 0.7)),
     url("../images/cont-pic.png");
-  /* background-image:url('images/admissions.jpg'); */
-  background-position: right center;
+  background-position:center;
+  background-repeat:no-repeat;
   background-size: cover;
   text-align: center;
   color: #fff;
-  position: relative;
-  z-index: -1;
 }
 
 .contact-img h1 {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 36px;
   color:#fff;
 }
 
-.contact {
-  padding: 2% 8%;
-}
 
-.contact h1 {
-  padding: 50px 0;
-  font-size: 36px;
-  text-align: center;
-}
-
-.contact h1::after {
-  content: "";
-  width: 100px;
-  height: 4px;
-  background: #004c7e;
-  display: block;
-  margin: 5px auto;
-  border-radius: 5px;
-}
 
 .contact .icons-container {
   margin-bottom: 3rem;
@@ -1149,7 +1137,7 @@ nav ul li.active a {
 
 .contact .icons-container .icons {
   text-align: center;
-  padding: 3rem 2rem;
+  padding: 3em 2em;
   border: 0.1rem solid #006994;
   background: #f0fdfa;
 }
@@ -1160,7 +1148,7 @@ nav ul li.active a {
   line-height: 6rem;
   font-size: 2rem;
   border-radius: 50%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8em;
   color: #fff;
   background: #006994;
 }
@@ -1187,8 +1175,9 @@ nav ul li.active a {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-wrap: wrap;
+  place-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 9rem;
 }
 
 .contact .row .image {
@@ -1198,74 +1187,57 @@ nav ul li.active a {
 }
 
 .contact .row .image img {
-  width: 85%;
+  width:100%;
   height: 80vh;
   object-fit: center;
 }
 
 .contact .row form {
+  width:500px;
+  height:450px;
+  background:#006994;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40rem;
+  border-radius:8px;
   flex: 1 1 40rem;
   border: 0.1rem solid #006994;
   padding: 2rem;
 }
 
 .contact .row form h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
-  color: #444;
+  color: #fff;
   padding-bottom: 1rem;
 }
 
-.contact-btn {
-  padding: 15px 30px;
-  background: #006994;
-  color: #fff;
-  outline: none;
-  border: none;
-  border-radius: 25px;
-  font-weight: 700;
-  text-transform: uppercase;
+
+
+
+
+form input {
+  width:100%;
+  padding:1em 1em;
+  margin:0.8em 0;
+  outline:none;
+  border-radius:5px;
+  border:none;
 }
 
-.contact-btn:hover {
-  background: #004c7e;
-  color: #fff;
+form textarea{
+  width:100%;
+  resize:none;
+  padding:1em 1em;
+  outline:none;
 }
 
-.contact .row form .box {
-  width: 100%;
-  padding: 1.2rem 1.4rem;
-  border: 0.1rem solid #006994;
-  font-size: 1.2rem;
-  margin: 0.7rem 0;
-}
 
-/* .contact .row form .box:focus {
-    background: #b6f0ff;
-    color: #fff;
-  }
-   */
-.contact .row form .box:focus::-webkit-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus:-ms-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus::-ms-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus::placeholder {
-  color: #eee;
-}
-
-.contact .row form textarea {
-  height: 15rem;
-  resize: none;
+.btn-3{
+  color:#fff;
+  border:none;
+  background:#004c7e;
+  margin-top:1em;
+  text-transform:uppercase;
 }
 
 /* ------------END OF CONTACT STYLING */
@@ -1387,11 +1359,11 @@ nav ul li.active a {
   box-shadow:0px 0px 4px rgb(0,0,0,0.5)
 }
 
-form{
+.form-container form{
   padding:30px;
 }
 
-form input{
+.form-container form input{
   width:100%;
   padding:15px;
   margin:10px 0;
@@ -1420,7 +1392,7 @@ form input{
   text-decoration:underline;
 }
 
-form .btn{
+.form-container  .btn{
   width:100%;
   background:#007bbf;
   height:45px;
@@ -1436,7 +1408,7 @@ form .btn{
   transition:.3s;
 }
 
-form .btn:hover{
+.form-container  .btn:hover{
   background:#03073d;
   color:#fff;
 }
@@ -1752,9 +1724,7 @@ form .btn:hover{
 
   .contact-img {
     width: 100%;
-    height: 20vh;
-    position: absolute;
-    top: 0%;
+    height: 40vh;
     object-fit: cover;
   }
 
@@ -1768,9 +1738,6 @@ form .btn:hover{
     font-size: 18px;
   }
 
-  .icons {
-    margin-top: 20%;
-  }
 
   .contact .row .image img {
     width: 100%;
@@ -1779,7 +1746,8 @@ form .btn:hover{
   }
 
   .contact .row form {
-    width: 100%;
+    width: 90%;
+    margin:auto;
   }
 
   .course-img {
@@ -1857,8 +1825,22 @@ form .btn:hover{
     gap: 2rem;
   }
 
+  .contact .row .image img {
+      padding:0 1em;
+      width: 100%;
+      height:50vh;
+      
+  }
+
 
   .contact .icons-container {
-     margin-top:3rem;
+     padding:0 1em;
+
+  }
+
+  .contact .row form {
+    width: 95%;
+    height:60vh;
+  
   }
 }
