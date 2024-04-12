@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 
@@ -241,22 +241,18 @@ nav ul li.active a {
 }
 
 .banner-content {
-  width: 65%;
   text-shadow: 0px 0px 4px #000;
-  position:absolute;
-  top:35px;
   margin-top:10em;
 }
 
 .banner-content h1 {
-  font-size:4rem;
+  font-size:3rem;
   color: #fff;
   margin-bottom:0.2em;
   font-weight: bold;
 }
 
 .banner-content p {
-  max-width:600px;
   font-size:1.1rem;
   color: #fff;
 }
@@ -1299,8 +1295,9 @@ nav ul li.active a {
 
 .footer-info h2 {
   color: #004c7e;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 1.3rem;
+  font-weight:900;
+  
 }
 
 .line {
