@@ -1816,7 +1816,9 @@ form .btn:hover{
   }
 
   .news h1 {
-    margin-top: 20%;
+    margin-top:10em;
+    font-size:1em;
+ 
   }
 
   .news-container {
