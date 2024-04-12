@@ -875,6 +875,9 @@ nav ul li.active a {
   z-index: -1;
 }
 
+
+
+
 .gallery h1 {
   text-align: center;
   font-family: "montserrat", sans-serif;
@@ -909,7 +912,9 @@ nav ul li.active a {
 }
 
 .gallery-row {
-  padding: 2% 8%;
+   display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+   gap:1em;
 }
 
 .gallery-item {
