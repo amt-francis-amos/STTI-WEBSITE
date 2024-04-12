@@ -325,9 +325,10 @@ nav ul li.active a {
 }
 
 .school-history {
-    width:70%;
+    width:100%;
     margin:auto;
-    text-align:center;
+    text-align:justify;
+    
 }
 
 .school-history h1 {
@@ -350,7 +351,7 @@ nav ul li.active a {
 }
 
 .school-history p {
-  font-size: 14px;
+  font-size:1rem;
   line-height: 1.7;
   color: #3b3b3b;
 }
@@ -359,7 +360,11 @@ nav ul li.active a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap:2rem;
-  padding:2% 8%;
+  margin-top:3em;
+}
+
+.obj-info{
+  margin:auto;
 }
 
 .obj-info h2 {
@@ -369,7 +374,7 @@ nav ul li.active a {
 
 .obj-info p{
   line-height:30px;
-  font-size:14px;
+  font-size:1rem;
   text-align:justify;
 
 }
@@ -381,7 +386,8 @@ nav ul li.active a {
 
 .achieve h1{
   text-align:center;
-  font-size:30px;
+  font-size:2.5rem;
+  margin-bottom:1em;
 }
 
 .achieve h1::after {
@@ -398,12 +404,15 @@ nav ul li.active a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
-  padding:2% 8%;
+ 
+}
+.achieve-info{
+  margin:auto;
 }
 
-
 .achieve-info p{
-    line-height:30px;
+    line-height:1.7;
+    font-size:1rem;
 }
 
 
@@ -416,7 +425,8 @@ nav ul li.active a {
 
 .principal h1{
    text-align:center;
-   font-size:30px;
+   font-size:2.5rem;
+   margin-bottom:1em;
 }
 
 .principal h1::after {
@@ -452,8 +462,8 @@ nav ul li.active a {
   font-weight: bold;
   background: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
   text-align: center;
+  padding:0.8em;
 }
 
 
@@ -466,9 +476,15 @@ nav ul li.active a {
 }
 
 .info-cont p{
-  line-height:30px;
+  line-height:1.7;
+  font-size:1rem;
 }
 
+
+.profile-title{
+    font-size:1.3rem;
+    color:#050d81;
+}
 
 
 /* ----Department styling ---- */
@@ -1566,6 +1582,13 @@ form textarea{
       font-size:0.8rem;
   }
 
+
+  .school-history {
+    width:85%;
+   
+    
+}
+
   .school-history h1 {
     font-size: 18px;
   }
@@ -1575,6 +1598,11 @@ form textarea{
     text-align: justify;
   }
 
+
+  .obj-info{
+    width:85%;
+  }
+
   .obj-info h2 {
     text-align: center;
   }
@@ -1582,6 +1610,12 @@ form textarea{
  .achieve h1{
   font-size:18px;
  }
+
+
+ 
+.achieve-info{
+    width:85%;
+}
 
 
 .achieve-info p{
