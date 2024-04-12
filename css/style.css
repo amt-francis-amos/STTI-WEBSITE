@@ -1650,6 +1650,11 @@ form textarea{
   }
 
 
+  th, td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
   .obj-info{
     width:85%;
   }
