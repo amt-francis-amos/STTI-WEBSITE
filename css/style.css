@@ -900,7 +900,6 @@ tr:nth-child(even) {
 .course-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-  padding: 2% 8%;
   gap: 2rem;
 }
 
@@ -1357,6 +1356,7 @@ form textarea{
 
 .footer-info a img {
   width: 120px;
+  margin:auto;
 }
 
 .footer-info .call {
@@ -1866,10 +1866,17 @@ form textarea{
     margin-top:5em;
   }
 
+  .course-flex{
+    width:100%;
+  }
+
+  .course-flex h2{
+     font-size:0.8rem;
+  }
+
   .course-container {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(55%, 1fr));
-    padding:0 8%;
+ 
   }
 
   .news-img {
