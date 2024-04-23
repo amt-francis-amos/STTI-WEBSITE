@@ -1385,7 +1385,7 @@ form textarea{
   color: #007bff;
   padding: 10px;
   text-align: center;
-  margin: 0 10px;
+  margin:1em 10px;
   font-size: 22px;
   transition: background 0.3s;
 }
