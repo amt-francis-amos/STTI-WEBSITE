@@ -840,10 +840,11 @@ tr:nth-child(even) {
 }
 
 .vision-info p {
-  line-height: 25px;
-  font-size: 16px;
+  max-width:280px;
+  line-height: 23px;
+  font-size:0.8rem;
   color: #292929;
-  margin-bottom:0.8em;
+  margin:0.8em auto;
 }
 
 
