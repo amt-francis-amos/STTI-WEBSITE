@@ -865,8 +865,6 @@ tr:nth-child(even) {
 .course-img {
   height: 70vh;
   width: 100%;
-  object-fit: center;
-  margin-top: 72px;
   background-image: url("../images/Course-banner.jpg");
   background-position: right center;
   background-size: cover;
@@ -967,7 +965,6 @@ tr:nth-child(even) {
   height: 75vh;
   width: 100%;
   object-fit: contain;
-  margin-top: 70px;
   background-image: url("../images/gallery-banner.jpg");
   background-position: right center;
   background-size: cover;
