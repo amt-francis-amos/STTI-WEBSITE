@@ -848,8 +848,27 @@ tr:nth-child(even) {
 }
 
 
+.new-info{
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  width:100%;
+
+}
+
+.new-info h2{
+  margin-bottom:1em;
+}
+
+.new-info p{
+  line-height:1.7;
+}
 
 
+.stti-slogan, .stti-location{
+   margin-bottom:3em;
+ 
+}
 
 /* ------ END OF OUR VISION AND MISSION STYLING ------- */
 
@@ -1924,6 +1943,10 @@ form textarea{
   .copyright {
     width: 300px;
     margin: auto;
+  }
+
+  .new-info p{
+     padding:0 1em;
   }
 }
 
