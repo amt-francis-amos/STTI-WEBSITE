@@ -512,8 +512,7 @@ tr:nth-child(even) {
 
 .principal-info img {
   width: 80%;
-  height:70vh;
-  object-fit:cover;
+  
   border: 6px solid #006994;
 }
 
