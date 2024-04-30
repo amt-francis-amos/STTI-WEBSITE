@@ -419,11 +419,13 @@ tr:nth-child(even) {
 
 .obj-info{
   margin:auto;
+
 }
 
 .obj-info h2 {
   margin-bottom: 20px;
   font-size: 20px;
+  text-align:center;
 }
 
 .obj-info p{
@@ -502,6 +504,8 @@ tr:nth-child(even) {
 
 .principal-info img {
   width: 80%;
+  height:70vh;
+  object-fit:cover;
   border: 6px solid #006994;
 }
 
@@ -519,6 +523,36 @@ tr:nth-child(even) {
   text-align: center;
   padding:0.8em;
 }
+
+.cont-principal p{
+   max-width:1000px;
+   margin:auto;
+   line-height:1.7;
+}
+
+
+.about-logo {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.about-logo h1 {
+  margin-bottom: 1em;
+}
+
+.about-logo p {
+  line-height: 1.7;
+  text-align: left;
+  margin-top: 20px;
+}
+.about-logo .text-logo {
+  width:200px;
+  float: left;
+  margin-right: 10px; 
+  margin-bottom: 10px; 
+}
+
+
 
 
 .info-cont {
