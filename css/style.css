@@ -428,6 +428,16 @@ tr:nth-child(even) {
   text-align:center;
 }
 
+
+.obj-info h2::after{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #006994;
+  display: block;
+  margin: 5px auto;
+}
+
 .obj-info p{
   line-height:30px;
   font-size:1rem;
@@ -536,6 +546,15 @@ tr:nth-child(even) {
 
 .about-logo h1 {
   margin-bottom: 1em;
+}
+
+.about-logo h1::after{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #006994;
+  display: block;
+  margin: 5px auto;
 }
 
 .about-logo p {
