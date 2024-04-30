@@ -1688,24 +1688,24 @@ form textarea{
     width: 100%;
     text-align: center;
     position: absolute;
-    top:-30px;
+    top:5%;
     left:9px;
   }
 
   .banner-content h1 {
-    font-size:1rem;
+    font-size:1.5rem;
   }
 
   .banner-content p {
     max-width: 180px;
-    font-size:0.8rem;
+    font-size:1rem;
     margin: auto;
   }
 
 
   .btn{
       width:130px;
-      font-size:0.8rem;
+      font-size:1rem;
   }
 
 
@@ -1868,7 +1868,7 @@ form textarea{
   }
 
   .vision-title h1 {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 
   .vision-title p {
