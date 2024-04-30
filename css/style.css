@@ -2055,6 +2055,11 @@ form textarea{
 
 
 @media(max-width:835px){
+
+  .depart-info img{
+    height:50vh;
+    object-fit:cover;
+  }
   .contact .row {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
