@@ -925,9 +925,20 @@ tr:nth-child(even) {
 }
 
 
-.stti-slogan, .stti-location{
-   margin-bottom:3em;
- 
+.stti-slogan{
+   text-align:center;
+   margin-top:0.8em;
+}
+
+
+.stti-location h2{
+  text-align:center;
+  margin-bottom:0.5em;
+}
+
+.stti-location p{
+    line-height:1.7;
+    text-align:justify;
 }
 
 /* ------ END OF OUR VISION AND MISSION STYLING ------- */
