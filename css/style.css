@@ -1378,9 +1378,9 @@ tr:nth-child(even) {
 }
 
 .contact .row .image img {
-  width:90%;
-  height:50vh;
-  object-fit: center;
+  width:100%;
+  height:60vh;
+  object-fit:cover;
 }
 
 .contact .row form {
@@ -1523,8 +1523,6 @@ form textarea{
 .results{
   padding:100px 0;
 }
-
-
 
 
 /* ------ form ---------------------- */
@@ -1976,7 +1974,7 @@ form textarea{
   .about-header {
     width: 100%;
     height: 40vh;
-    object-fit: center;
+    object-fit:cover;
   }
 
   .about-header h1 {
@@ -2034,8 +2032,8 @@ form textarea{
 
   .contact .row .image img {
     width: 100%;
-    height: 50vh;
-    object-fit: center;
+    height:30vh;
+    object-fit:cover;
   }
 
   .contact .row form {
@@ -2148,16 +2146,17 @@ form textarea{
     height:50vh;
     object-fit:cover;
   }
+
+
   .contact .row {
     grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+ 
   }
 
   .contact .row .image img {
-      padding:0 1em;
-      width: 100%;
-      height:50vh;
-      
+      width:100%;
+      height:35vh;
+      object-fit:cover;
   }
 
 
@@ -2167,9 +2166,9 @@ form textarea{
   }
 
   .contact .row form {
-    width: 95%;
+    width:100%;
     height:60vh;
-  
+    object-fit:cover;
   }
 
   .course-img {
@@ -2184,5 +2183,10 @@ form textarea{
     height: 18vh;
     top:9%;
     object-fit: cover;
+  }
+
+
+  .btn-3{
+    font-size:0.8rem;
   }
 }
