@@ -925,31 +925,31 @@ tr:nth-child(even) {
 }
 
 
-.stti-slogan{
-   text-align:center;
-   margin:0.8em 0;
-}
-
-
-.stti-location h2{
+.stti-location h2, .stti-slogan h2{
   text-align:center;
   margin-bottom:0.5em;
 }
 
-.stti-location p{
-    line-height:1.7;
-    text-align:justify;
+.stti-location h2::after, .stti-slogan h2::after{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #006994;
+  display: block;
+  margin: 5px auto;
 }
 
-.short-courses{
+.stti-location p, .stti-slogan p{
+    line-height:1.7;
+    text-align:center;
+}
+
+.short-courses, .programs-offered{
   text-align:justify;
   margin-top:0.8em;
 }
 
-.programs-offered{
-  text-align:justify;
 
-}
 
 .programs-offered h1{
   margin:1em 0;
@@ -964,6 +964,22 @@ tr:nth-child(even) {
   text-align:center;
   margin-bottom:0.5em;
 }
+
+
+.programs-offered h1::after, .short-courses h1::after{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background: #006994;
+  display: block;
+  margin: 5px auto;
+}
+
+
+
+
+
+
 
 .short-courses p{
    line-height:1.7;
@@ -1927,7 +1943,13 @@ form textarea{
   }
 
 
+  .stti-location p{
+     text-align:justify;
+  }
 
+  .stti-slogan h2{
+    margin-top:1em;
+  }
 
   .short-courses h1, .programs-offered h1{
      font-size:1.2rem;
