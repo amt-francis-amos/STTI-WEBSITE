@@ -1082,7 +1082,7 @@ tr:nth-child(even) {
 }
 
 .gallery-info::after {
-  content: "OUR COMPANY GALLERY"; 
+  content: ""; 
   position: absolute;
   bottom:7px;
   left: 0;
@@ -1090,7 +1090,7 @@ tr:nth-child(even) {
   height: 0;
   object-fit:cover;
   border-radius:10px;
-  background-color:var(--blue-color);
+  background-color:#004c7e;
   text-align: center;
   transition: height 0.3s; 
   box-sizing: border-box;
